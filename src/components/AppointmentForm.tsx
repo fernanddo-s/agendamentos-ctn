@@ -51,7 +51,7 @@ export function AppointmentForm({ onSubmit }: Props) {
           Data do Agendamento
         </label>
         <input
-          type="date"
+          type="datetime-local"
           id="date"
           name="date"
           required
