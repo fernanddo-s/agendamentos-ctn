@@ -66,7 +66,7 @@ export function AppointmentTable({
                   {appointment.phone}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                  {new Date(appointment.date).toLocaleString('pt-BR')}
+                  {new Date(appointment.date).toLocaleDateString('pt-BR')}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm">
                   {appointment.isVerified ? (
